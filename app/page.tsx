@@ -520,7 +520,7 @@ export default function OpenFiestaChat() {
             <div className="hidden lg:block">
               <HeaderBar
                 onOpenMenu={() => setMobileSidebarOpen(true)}
-                title="kunal ai"
+                title="Kunal Ai"
                 githubOwner="Kunal Vishwakarma"
                 githubRepo="Open-Fiesta"
                 onOpenModelsModal={() => setModelModalOpen(true)}

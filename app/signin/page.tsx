@@ -41,7 +41,7 @@ export default function SignIn() {
             className="mx-auto h-16 w-16 rounded-lg"
           />
           <h2 className="mt-6 text-3xl font-bold text-white">
-            Sign in to kunal ai
+            Sign in to Kunal Ai
           </h2>
           <p className="mt-2 text-sm text-zinc-400">
             Choose your preferred sign-in method

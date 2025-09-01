@@ -435,7 +435,7 @@ export default function ModelsModal({
             title={name}
             models={grouped[name]}
             iconUrl={BRAND_ICONS[name]?.url ?? '/brand.png'}
-            iconAlt={BRAND_ICONS[name]?.alt ?? 'kunal ai'}
+            iconAlt={BRAND_ICONS[name]?.alt ?? 'Kunal Ai'}
           />
         ));
     });

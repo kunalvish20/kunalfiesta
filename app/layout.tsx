@@ -8,9 +8,9 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "kunal ai - AI Chat Assistant",
+  title: "Kunal Ai - AI Chat Assistant",
   description: "Your intelligent conversation partner",
-  generator: "kunal ai",
+  generator: "Kunal Ai",
 }
 
 export default function RootLayout({

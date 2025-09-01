@@ -10,7 +10,7 @@ interface LaunchScreenProps {
 
 export default function LaunchScreen({
   backgroundClass,
-  title = 'kunal ai',
+  title = 'Kunal Ai',
   subtitle = 'Warming things up…',
   logoSrc = '/brand.png',
   dismissed = false,

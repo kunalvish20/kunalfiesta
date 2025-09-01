@@ -1,6 +1,6 @@
 /**
  * Theme System Configuration
- * Defines all theme options, types, and constants for the kunal ai application
+ * Defines all theme options, types, and constants for the Kunal Ai application
  */
 
 // Theme Mode Types

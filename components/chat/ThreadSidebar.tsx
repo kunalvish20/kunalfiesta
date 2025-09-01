@@ -187,7 +187,7 @@ export default function ThreadSidebar({
             <div className="relative">
               <div className="w-4 h-4 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 shadow-lg" />
 <div className="absolute inset-0 w-4 h-4 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 animate-ping opacity-30" />   </div>
-            <h2 className="text-xl font-bold tracking-tight bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">kunal ai</h2>
+            <h2 className="text-xl font-bold tracking-tight bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">Kunal Ai</h2>
           </div>
         </div>
         {/* Credits link under title */}
@@ -469,7 +469,7 @@ export default function ThreadSidebar({
             <div className="flex items-center justify-between mb-2">
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 rounded-full accent-dot accent-beacon accent-dot-pulse" />
-                <h2 className="text-sm font-semibold">kunal ai</h2>
+                <h2 className="text-sm font-semibold">Kunal Ai</h2>
               </div>
               <button
                 aria-label="Close"
@@ -687,7 +687,7 @@ export function SimpleThreadSidebar({ isDark, sidebarOpen, onClose, onNewChat }:
     >
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-inherit rounded-tr-2xl">
-        <h1 className={cn('text-xl font-semibold', isDark ? 'text-white' : 'text-gray-800')}>kunal ai</h1>
+        <h1 className={cn('text-xl font-semibold', isDark ? 'text-white' : 'text-gray-800')}>Kunal Ai</h1>
         <Button
           variant="ghost"
           size="sm"

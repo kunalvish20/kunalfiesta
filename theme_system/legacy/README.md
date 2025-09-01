@@ -1,6 +1,6 @@
 # Theme System Legacy Archive
 
-This directory preserves historical planning, gap analysis, and verbose implementation logs for the kunal ai theme system. These files are retained for traceability and deeper context but are no longer the primary reference.
+This directory preserves historical planning, gap analysis, and verbose implementation logs for the Kunal Ai theme system. These files are retained for traceability and deeper context but are no longer the primary reference.
 
 ## Primary Current Doc
 

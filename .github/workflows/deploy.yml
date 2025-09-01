@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build kunal ai
+      - name: Build Kunal Ai
         run: npm run build
 
   docker:

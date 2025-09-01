@@ -87,7 +87,7 @@ export default function SharedChatError({ error }: SharedChatErrorProps) {
               onKeyDown={(e) => handleKeyDown(e, () => window.location.href = '/')}
             >
               <ArrowLeft size={16} aria-hidden="true" />
-              <span>Back to kunal ai</span>
+              <span>Back to Kunal Ai</span>
             </Link>
           </nav>
 
@@ -136,7 +136,7 @@ export default function SharedChatError({ error }: SharedChatErrorProps) {
                 aria-describedby="home-description"
               >
                 <Home size={16} aria-hidden="true" />
-                <span>Go to kunal ai</span>
+                <span>Go to Kunal Ai</span>
               </Link>
             </div>
 
@@ -145,7 +145,7 @@ export default function SharedChatError({ error }: SharedChatErrorProps) {
               Reload the page to try loading the shared conversation again
             </span>
             <span id="home-description" className="sr-only">
-              Navigate to the main kunal ai application
+              Navigate to the main Kunal Ai application
             </span>
 
             {/* Technical Details */}

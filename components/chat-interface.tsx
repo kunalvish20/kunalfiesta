@@ -40,7 +40,7 @@ export const ChatInterface = forwardRef<ChatInterfaceRef, { hideInput?: boolean 
   // Compute brand logo from a model
   const getBrandFromModel = (model?: AiModel): { src: string; alt: string } => {
     const fallback = '/brand.png'
-    if (!model) return { src: fallback, alt: 'kunal ai' }
+    if (!model) return { src: fallback, alt: 'Kunal Ai' }
     const id = model.id.toLowerCase()
     const m = model.model.toLowerCase()
     const lbl = model.label.toLowerCase()
@@ -53,7 +53,7 @@ export const ChatInterface = forwardRef<ChatInterfaceRef, { hideInput?: boolean 
     if (m.includes('claude') || id.includes('claude')) {
       return { src: 'https://cdn.simpleicons.org/anthropic/ffffff', alt: 'Anthropic / Claude' }
     }
-    return { src: fallback, alt: 'kunal ai' }
+    return { src: fallback, alt: 'Kunal Ai' }
   }
 
   useEffect(() => {

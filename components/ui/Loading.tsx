@@ -37,7 +37,7 @@ export default function Loading({ backgroundClass }: { backgroundClass: string }
                 </svg>
 
                 <h2 className="mt-4 text-sm font-medium tracking-wide text-white/90">
-                  kunal ai
+                  Kunal Ai
                 </h2>
                 <p className="mt-1 text-xs text-white/60">Preparing your workspace…</p>
                 <span className="sr-only">Loading</span>

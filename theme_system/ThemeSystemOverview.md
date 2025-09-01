@@ -1,4 +1,4 @@
-# kunal ai Theme System Overview
+# Kunal Ai Theme System Overview
 
 Date: 2025-08-20  
 Status: Stable, polishing tasks pending (minor)

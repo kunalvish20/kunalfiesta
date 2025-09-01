@@ -403,7 +403,7 @@ export default function Home() {
             <div className="hidden lg:block">
               <HeaderBar
                 onOpenMenu={() => setMobileSidebarOpen(true)}
-                title="kunal ai"
+                title="Kunal Ai"
                 githubOwner="Kunal Vishwakarma"
                 githubRepo="Open-Fiesta"
                 onOpenModelsModal={() => setModelsModalOpen(true)}

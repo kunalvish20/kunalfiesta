@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import QRCode from "react-qr-code";
 import {
   Heart,
   Coffee,
@@ -78,11 +77,6 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
       "noopener,noreferrer"
     );
   };
-
-  // UPI QR Code URL
-  const upiUrl = `upi://pay?pa=${UPI_ID}&pn=${encodeURIComponent(
-    PAYEE_NAME
-  )}&tn=${encodeURIComponent(UPI_MSG)}&cu=INR`;
 
   return (
     <div ref={dropdownRef} className="fixed bottom-6 right-4 sm:right-6 z-50">
@@ -169,12 +163,12 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
                 )}
               </button>
             </div>
-            <div className="bg-white p-2 rounded-lg  flex flex-col items-center">
-              <QRCode
-                value={upiUrl}
-                size={120}
-                bgColor="#fff"
-                fgColor="#222"
+            <div className="bg-white p-2 rounded-lg flex flex-col items-center">
+              {/* Replaced QRCode with static image */}
+              <img
+                src="https://cdn.prod.website-files.com/601d7e7320ecf079f58169fd/601d9b6c45b78923edd1cac9_image-home-hero-dentist-template-p-1080.jpeg"
+                alt="UPI QR"
+                className="w-32 h-32 object-contain rounded"
               />
               <div className="mt-2 text-xs text-center text-gray-500">
                 UPI ID:{" "}

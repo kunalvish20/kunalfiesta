@@ -85,7 +85,7 @@ export default function HeaderBar({
         <CustomModels compact />
         <ThemeToggle compact />
         <Settings compact />
-        <GithubStar owner={githubOwner} repo={githubRepo} />
+        {/* <GithubStar owner={githubOwner} repo={githubRepo} /> */}
       </div>
     </div>
   );

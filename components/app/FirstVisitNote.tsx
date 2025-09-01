@@ -16,7 +16,7 @@ export default function FirstVisitNote({ open, onClose }: Props) {
         </div>
         <div className="text-sm text-zinc-300 space-y-2">
           <p>
-            We include in‑house API keys for many pro models so you can try them instantly. You can
+            i include in‑house API keys for many pro models so you can try them instantly. You can
             also bring your own keys at any time.
           </p>
           <ul className="list-disc list-inside space-y-1">
